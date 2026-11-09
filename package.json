@@ -1,0 +1,28 @@
+{
+  "name": "mcq-hero",
+  "version": "0.1.0",
+  "description": "McQForYouDesign Etsy hero image maker: photo prep plus a 4000x3000 branded overlay.",
+  "license": "Apache-2.0",
+  "author": "Richard McQuiston",
+  "bin": {
+    "mcq-hero": "bin/mcq-hero.js"
+  },
+  "files": [
+    "bin",
+    "assets",
+    "make_hero.js",
+    "prep_photo.py",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "playwright": "^1.50.0"
+  },
+  "funding": "https://ko-fi.com/P1V529Z7ZP",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RichardMcQuiston01/mcq-hero.git"
+  }
+}
